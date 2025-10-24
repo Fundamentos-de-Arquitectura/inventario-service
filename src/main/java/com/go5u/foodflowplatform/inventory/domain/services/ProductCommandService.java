@@ -6,4 +6,7 @@ public interface ProductCommandService {
 
     Long handle(CreateProductCommand command);
 
+    void decreaseInventoryQuantity(Long productId, Integer quantity);
+
+    void increaseInventoryQuantity(Long productId, Integer quantity);
 }

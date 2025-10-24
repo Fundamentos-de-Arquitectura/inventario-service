@@ -42,4 +42,24 @@ public class Product{
         this.expirationDate = new ExpirationDate(command.expirationDate());
         this.price = new Price(command.price());
     }
+
+    public void decreaseQuantity(int amount) {
+        if (amount < 0) {
+            throw new IllegalArgumentException("Decrease amount must be non-negative");
+        }
+        int current = (this.quantity != null) ? this.quantity.quantity() : 0;
+        int updated = current - amount;
+        if (updated < 0) {
+            throw new IllegalArgumentException("Insufficient inventory");
+        }
+        this.quantity = new Quantity(updated);
+    }
+
+    public void increaseQuantity(int amount) {
+        if (amount < 0) {
+            throw new IllegalArgumentException("Increase amount must be non-negative");
+        }
+        int current = (this.quantity != null) ? this.quantity.quantity() : 0;
+        this.quantity = new Quantity(current + amount);
+    }
 }

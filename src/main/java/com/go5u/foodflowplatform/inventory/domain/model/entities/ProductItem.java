@@ -1,10 +1,10 @@
 package com.go5u.foodflowplatform.inventory.domain.model.entities;
 
-import com.go4u.keepitfreshplatform.inventory.domain.model.aggregates.Product;
-import com.go4u.keepitfreshplatform.inventory.domain.model.valueobjects.ExpirationDate;
-import com.go4u.keepitfreshplatform.inventory.domain.model.valueobjects.Price;
-import com.go4u.keepitfreshplatform.inventory.domain.model.valueobjects.Quantity;
-import com.go4u.keepitfreshplatform.shared.domain.model.entities.AuditableModel;
+import com.go5u.foodflowplatform.inventory.domain.model.aggregates.Product;
+import com.go5u.foodflowplatform.inventory.domain.model.valueobjects.ExpirationDate;
+import com.go5u.foodflowplatform.inventory.domain.model.valueobjects.Price;
+import com.go5u.foodflowplatform.inventory.domain.model.valueobjects.Quantity;
+import com.go5u.foodflowplatform.shared.domain.model.entities.AuditableModel;
 import jakarta.persistence.Entity;
 import jakarta.persistence.*;
 import jakarta.validation.constraints.NotNull;

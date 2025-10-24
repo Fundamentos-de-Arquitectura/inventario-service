@@ -3,7 +3,7 @@ package com.go5u.foodflowplatform.inventory.interfaces.rest;
 import com.go5u.foodflowplatform.inventory.domain.model.queries.GetAllProductsQuery;
 import com.go5u.foodflowplatform.inventory.domain.model.queries.GetProductByIdQuery;
 import com.go5u.foodflowplatform.inventory.domain.services.ProductCommandService;
-import ccom.go5u.foodflowplatform.inventory.domain.services.ProductQueryService;
+import com.go5u.foodflowplatform.inventory.domain.services.ProductQueryService;
 import com.go5u.foodflowplatform.inventory.interfaces.rest.resources.CreateProductResource;
 import com.go5u.foodflowplatform.inventory.interfaces.rest.resources.ProductItemResource;
 import com.go5u.foodflowplatform.inventory.interfaces.rest.transform.CreateProductCommandFromResourceAssembler;

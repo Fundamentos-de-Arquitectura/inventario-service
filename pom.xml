@@ -12,13 +12,13 @@
     </parent>
 
     <groupId>com.go4u</groupId>
-    <artifactId>keep-it-fresh-platform</artifactId>
+    <artifactId>food-flow-platform</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>keep-it-fresh-platform</name>
     <description>keep-it-fresh-platform</description>
 
     <properties>
-        <java.version>23</java.version>
+        <java.version>24</java.version>
     </properties>
 
     <dependencies>
@@ -111,7 +111,7 @@
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>3.11.0</version>
                 <configuration>
-                    <release>23</release>
+                    <release>24</release>
                     <compilerArgs>
                         <arg>--enable-preview</arg>
                     </compilerArgs>
